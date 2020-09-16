@@ -1,0 +1,48 @@
+.alert-dismissible {
+    padding-right:0!important;
+}
+
+img {
+    max-width:35%;
+}
+p {
+    margin:0;
+    padding:0;
+    text-align:left;
+    margin-bottom:5px;
+}
+h3,h5,b,p,label {
+    color:#000;
+    text-align:left;
+}
+
+h5,b {
+    line-height:1.4em;
+}
+
+@media (max-width:415px) {
+    li {
+        list-style: none;
+    }
+
+    h5 {
+        font-size:13pt!important;
+    }
+    .questions {
+        margin-left:0!important;;
+    }
+    #question_1 li {
+        margin-left:0px!important;
+        list-style: none;
+    }
+
+    .form-check {
+        margin-left:0!important;
+        display: flex;
+        
+    }
+
+    .alert-dismissible {
+        padding-right:0!important;
+    }
+}

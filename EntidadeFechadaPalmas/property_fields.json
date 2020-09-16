@@ -1,0 +1,1331 @@
+{
+  "result": {
+    "ID": {
+      "type": "integer",
+      "isRequired": false,
+      "isReadOnly": true,
+      "isImmutable": false,
+      "isMultiple": false,
+      "isDynamic": false,
+      "title": "ID"
+    },
+    "CATALOG_ID": {
+      "type": "integer",
+      "isRequired": false,
+      "isReadOnly": true,
+      "isImmutable": false,
+      "isMultiple": false,
+      "isDynamic": false,
+      "title": "Catalog"
+    },
+    "PRICE": {
+      "type": "double",
+      "isRequired": false,
+      "isReadOnly": false,
+      "isImmutable": false,
+      "isMultiple": false,
+      "isDynamic": false,
+      "title": "Price"
+    },
+    "CURRENCY_ID": {
+      "type": "string",
+      "isRequired": false,
+      "isReadOnly": false,
+      "isImmutable": false,
+      "isMultiple": false,
+      "isDynamic": false,
+      "title": "Currency"
+    },
+    "NAME": {
+      "type": "string",
+      "isRequired": true,
+      "isReadOnly": false,
+      "isImmutable": false,
+      "isMultiple": false,
+      "isDynamic": false,
+      "title": "Name"
+    },
+    "CODE": {
+      "type": "string",
+      "isRequired": false,
+      "isReadOnly": false,
+      "isImmutable": false,
+      "isMultiple": false,
+      "isDynamic": false,
+      "title": "CODE"
+    },
+    "DESCRIPTION": {
+      "type": "string",
+      "isRequired": false,
+      "isReadOnly": false,
+      "isImmutable": false,
+      "isMultiple": false,
+      "isDynamic": false,
+      "title": "Description"
+    },
+    "DESCRIPTION_TYPE": {
+      "type": "string",
+      "isRequired": false,
+      "isReadOnly": false,
+      "isImmutable": false,
+      "isMultiple": false,
+      "isDynamic": false,
+      "title": "Description type"
+    },
+    "ACTIVE": {
+      "type": "char",
+      "isRequired": false,
+      "isReadOnly": false,
+      "isImmutable": false,
+      "isMultiple": false,
+      "isDynamic": false,
+      "title": "Active"
+    },
+    "SECTION_ID": {
+      "type": "integer",
+      "isRequired": false,
+      "isReadOnly": false,
+      "isImmutable": false,
+      "isMultiple": false,
+      "isDynamic": false,
+      "title": "Section"
+    },
+    "SORT": {
+      "type": "integer",
+      "isRequired": false,
+      "isReadOnly": false,
+      "isImmutable": false,
+      "isMultiple": false,
+      "isDynamic": false,
+      "title": "Sort"
+    },
+    "VAT_ID": {
+      "type": "integer",
+      "isRequired": false,
+      "isReadOnly": false,
+      "isImmutable": false,
+      "isMultiple": false,
+      "isDynamic": false,
+      "title": "Tax rate"
+    },
+    "VAT_INCLUDED": {
+      "type": "char",
+      "isRequired": false,
+      "isReadOnly": false,
+      "isImmutable": false,
+      "isMultiple": false,
+      "isDynamic": false,
+      "title": "Tax included"
+    },
+    "MEASURE": {
+      "type": "integer",
+      "isRequired": false,
+      "isReadOnly": false,
+      "isImmutable": false,
+      "isMultiple": false,
+      "isDynamic": false,
+      "title": "Unit of measurement"
+    },
+    "XML_ID": {
+      "type": "string",
+      "isRequired": false,
+      "isReadOnly": false,
+      "isImmutable": false,
+      "isMultiple": false,
+      "isDynamic": false,
+      "title": "External ID"
+    },
+    "PREVIEW_PICTURE": {
+      "type": "product_file",
+      "isRequired": false,
+      "isReadOnly": false,
+      "isImmutable": false,
+      "isMultiple": false,
+      "isDynamic": false,
+      "title": "Preview image"
+    },
+    "DETAIL_PICTURE": {
+      "type": "product_file",
+      "isRequired": false,
+      "isReadOnly": false,
+      "isImmutable": false,
+      "isMultiple": false,
+      "isDynamic": false,
+      "title": "Full image"
+    },
+    "DATE_CREATE": {
+      "type": "datetime",
+      "isRequired": false,
+      "isReadOnly": false,
+      "isImmutable": false,
+      "isMultiple": false,
+      "isDynamic": false,
+      "title": "Created on"
+    },
+    "TIMESTAMP_X": {
+      "type": "datetime",
+      "isRequired": false,
+      "isReadOnly": false,
+      "isImmutable": true,
+      "isMultiple": false,
+      "isDynamic": false,
+      "title": "Modified on"
+    },
+    "MODIFIED_BY": {
+      "type": "integer",
+      "isRequired": false,
+      "isReadOnly": false,
+      "isImmutable": false,
+      "isMultiple": false,
+      "isDynamic": false,
+      "title": "Modificado por"
+    },
+    "CREATED_BY": {
+      "type": "integer",
+      "isRequired": false,
+      "isReadOnly": false,
+      "isImmutable": false,
+      "isMultiple": false,
+      "isDynamic": false,
+      "title": "Created by"
+    },
+    "PROPERTY_105": {
+      "type": "product_property",
+      "isRequired": false,
+      "isReadOnly": false,
+      "isImmutable": false,
+      "isMultiple": false,
+      "isDynamic": true,
+      "propertyType": "L",
+      "userType": "",
+      "title": "New",
+      "values": {
+        "155": {
+          "ID": "155",
+          "VALUE": "yes"
+        }
+      }
+    },
+    "PROPERTY_107": {
+      "type": "product_property",
+      "isRequired": false,
+      "isReadOnly": false,
+      "isImmutable": false,
+      "isMultiple": false,
+      "isDynamic": true,
+      "propertyType": "L",
+      "userType": "",
+      "title": "Bestseller",
+      "values": {
+        "157": {
+          "ID": "157",
+          "VALUE": "yes"
+        }
+      }
+    },
+    "PROPERTY_109": {
+      "type": "product_property",
+      "isRequired": false,
+      "isReadOnly": false,
+      "isImmutable": false,
+      "isMultiple": false,
+      "isDynamic": true,
+      "propertyType": "L",
+      "userType": "",
+      "title": "Special offer",
+      "values": {
+        "159": {
+          "ID": "159",
+          "VALUE": "yes"
+        }
+      }
+    },
+    "PROPERTY_111": {
+      "type": "product_property",
+      "isRequired": false,
+      "isReadOnly": false,
+      "isImmutable": false,
+      "isMultiple": false,
+      "isDynamic": true,
+      "propertyType": "S",
+      "userType": "",
+      "title": "Art number"
+    },
+    "PROPERTY_113": {
+      "type": "product_property",
+      "isRequired": false,
+      "isReadOnly": false,
+      "isImmutable": false,
+      "isMultiple": false,
+      "isDynamic": true,
+      "propertyType": "S",
+      "userType": "",
+      "title": "Manufacturer"
+    },
+    "PROPERTY_115": {
+      "type": "product_property",
+      "isRequired": false,
+      "isReadOnly": false,
+      "isImmutable": false,
+      "isMultiple": true,
+      "isDynamic": true,
+      "propertyType": "S",
+      "userType": "",
+      "title": "Material"
+    },
+    "PROPERTY_117": {
+      "type": "product_property",
+      "isRequired": false,
+      "isReadOnly": false,
+      "isImmutable": false,
+      "isMultiple": false,
+      "isDynamic": true,
+      "propertyType": "S",
+      "userType": "",
+      "title": "Color"
+    },
+    "PROPERTY_95": {
+      "type": "product_property",
+      "isRequired": false,
+      "isReadOnly": false,
+      "isImmutable": false,
+      "isMultiple": false,
+      "isDynamic": true,
+      "propertyType": "N",
+      "userType": "",
+      "title": "Número de votos"
+    },
+    "PROPERTY_97": {
+      "type": "product_property",
+      "isRequired": false,
+      "isReadOnly": false,
+      "isImmutable": false,
+      "isMultiple": false,
+      "isDynamic": true,
+      "propertyType": "N",
+      "userType": "",
+      "title": "Total de pontos"
+    },
+    "PROPERTY_99": {
+      "type": "product_property",
+      "isRequired": false,
+      "isReadOnly": false,
+      "isImmutable": false,
+      "isMultiple": false,
+      "isDynamic": true,
+      "propertyType": "N",
+      "userType": "",
+      "title": "Classificando"
+    },
+    "PROPERTY_119": {
+      "type": "product_property",
+      "isRequired": false,
+      "isReadOnly": false,
+      "isImmutable": false,
+      "isMultiple": true,
+      "isDynamic": true,
+      "propertyType": "F",
+      "userType": "",
+      "title": "Pictures / photos"
+    },
+    "PROPERTY_121": {
+      "type": "product_property",
+      "isRequired": false,
+      "isReadOnly": false,
+      "isImmutable": false,
+      "isMultiple": false,
+      "isDynamic": true,
+      "propertyType": "F",
+      "userType": "",
+      "title": "Background image"
+    },
+    "PROPERTY_123": {
+      "type": "product_property",
+      "isRequired": false,
+      "isReadOnly": false,
+      "isImmutable": false,
+      "isMultiple": false,
+      "isDynamic": true,
+      "propertyType": "S",
+      "userType": "",
+      "title": "Bar code"
+    },
+    "PROPERTY_125": {
+      "type": "product_property",
+      "isRequired": false,
+      "isReadOnly": false,
+      "isImmutable": false,
+      "isMultiple": false,
+      "isDynamic": true,
+      "propertyType": "S",
+      "userType": "",
+      "title": "Art number"
+    },
+    "PROPERTY_127": {
+      "type": "product_property",
+      "isRequired": false,
+      "isReadOnly": false,
+      "isImmutable": false,
+      "isMultiple": true,
+      "isDynamic": true,
+      "propertyType": "S",
+      "userType": "",
+      "title": "Attributes"
+    },
+    "PROPERTY_129": {
+      "type": "product_property",
+      "isRequired": false,
+      "isReadOnly": false,
+      "isImmutable": false,
+      "isMultiple": true,
+      "isDynamic": true,
+      "propertyType": "S",
+      "userType": "",
+      "title": "Traits"
+    },
+    "PROPERTY_131": {
+      "type": "product_property",
+      "isRequired": false,
+      "isReadOnly": false,
+      "isImmutable": false,
+      "isMultiple": false,
+      "isDynamic": true,
+      "propertyType": "S",
+      "userType": "",
+      "title": "Base unit"
+    },
+    "PROPERTY_133": {
+      "type": "product_property",
+      "isRequired": false,
+      "isReadOnly": false,
+      "isImmutable": false,
+      "isMultiple": true,
+      "isDynamic": true,
+      "propertyType": "S",
+      "userType": "",
+      "title": "Taxes"
+    },
+    "PROPERTY_159": {
+      "type": "product_property",
+      "isRequired": true,
+      "isReadOnly": false,
+      "isImmutable": false,
+      "isMultiple": false,
+      "isDynamic": true,
+      "propertyType": "L",
+      "userType": "",
+      "title": "Abrangencia",
+      "values": {
+        "187": {
+          "ID": "187",
+          "VALUE": "Municipal"
+        },
+        "189": {
+          "ID": "189",
+          "VALUE": "Estadual"
+        },
+        "191": {
+          "ID": "191",
+          "VALUE": "Nacional"
+        },
+        "193": {
+          "ID": "193",
+          "VALUE": "Grupo de Municípios"
+        },
+        "195": {
+          "ID": "195",
+          "VALUE": "Grupo de Estados"
+        }
+      }
+    },
+    "PROPERTY_317": {
+      "type": "product_property",
+      "isRequired": true,
+      "isReadOnly": false,
+      "isImmutable": false,
+      "isMultiple": false,
+      "isDynamic": true,
+      "propertyType": "L",
+      "userType": "",
+      "title": "Faixa de Idade",
+      "values": {
+        "231": {
+          "ID": "231",
+          "VALUE": "00 a 18"
+        },
+        "233": {
+          "ID": "233",
+          "VALUE": "19 a 23"
+        },
+        "235": {
+          "ID": "235",
+          "VALUE": "24 a 28"
+        },
+        "251": {
+          "ID": "251",
+          "VALUE": "29 a 33"
+        },
+        "253": {
+          "ID": "253",
+          "VALUE": "34 a 38"
+        },
+        "255": {
+          "ID": "255",
+          "VALUE": "39 a 43"
+        },
+        "257": {
+          "ID": "257",
+          "VALUE": "44 a 48"
+        },
+        "259": {
+          "ID": "259",
+          "VALUE": "49 a 53"
+        },
+        "261": {
+          "ID": "261",
+          "VALUE": "54 a 58"
+        },
+        "263": {
+          "ID": "263",
+          "VALUE": "59 ou +"
+        }
+      }
+    },
+    "PROPERTY_319": {
+      "type": "product_property",
+      "isRequired": true,
+      "isReadOnly": false,
+      "isImmutable": false,
+      "isMultiple": false,
+      "isDynamic": true,
+      "propertyType": "L",
+      "userType": "",
+      "title": "Tipo cliente",
+      "values": {
+        "265": {
+          "ID": "265",
+          "VALUE": "Titular"
+        },
+        "267": {
+          "ID": "267",
+          "VALUE": "Dependente"
+        }
+      }
+    },
+    "PROPERTY_321": {
+      "type": "product_property",
+      "isRequired": false,
+      "isReadOnly": false,
+      "isImmutable": false,
+      "isMultiple": false,
+      "isDynamic": true,
+      "propertyType": "L",
+      "userType": "",
+      "title": "Plano",
+      "values": {
+        "269": {
+          "ID": "269",
+          "VALUE": "UNIREDE CA (Básico)"
+        },
+        "271": {
+          "ID": "271",
+          "VALUE": "PRATA 4 (Básico)"
+        },
+        "273": {
+          "ID": "273",
+          "VALUE": "PRATA EXTRA"
+        },
+        "275": {
+          "ID": "275",
+          "VALUE": "DIAMANTE"
+        },
+        "276": {
+          "ID": "276",
+          "VALUE": "UNI LIFE AD F-E"
+        },
+        "278": {
+          "ID": "278",
+          "VALUE": "UNICOL II C-E"
+        },
+        "280": {
+          "ID": "280",
+          "VALUE": "UNI GREEN AD C-A"
+        },
+        "282": {
+          "ID": "282",
+          "VALUE": "QUALITY AD C-E"
+        },
+        "284": {
+          "ID": "284",
+          "VALUE": "QUALITY AD C-A"
+        },
+        "286": {
+          "ID": "286",
+          "VALUE": "UNI GREEN AD I-E"
+        },
+        "288": {
+          "ID": "288",
+          "VALUE": "UNI GREEN AD I-A"
+        },
+        "290": {
+          "ID": "290",
+          "VALUE": "QUALITY AD I-E"
+        },
+        "292": {
+          "ID": "292",
+          "VALUE": "QUALITY AD I-A"
+        },
+        "302": {
+          "ID": "302",
+          "VALUE": "UNIREDE CA (Especial)"
+        },
+        "304": {
+          "ID": "304",
+          "VALUE": "PRATA 4 (Especial)"
+        },
+        "308": {
+          "ID": "308",
+          "VALUE": "SMART 200 RJ - CC"
+        },
+        "310": {
+          "ID": "310",
+          "VALUE": "SMART 300 - CC"
+        },
+        "312": {
+          "ID": "312",
+          "VALUE": "SMART 400 - CC"
+        },
+        "314": {
+          "ID": "314",
+          "VALUE": "SMART 500 - CC"
+        },
+        "316": {
+          "ID": "316",
+          "VALUE": "ADVANCE 600 - CC"
+        },
+        "318": {
+          "ID": "318",
+          "VALUE": "ADVANCE 700 - CC"
+        },
+        "320": {
+          "ID": "320",
+          "VALUE": "SMART 150 ABC - CC"
+        },
+        "322": {
+          "ID": "322",
+          "VALUE": "SMART 200 SP CAPITAL - CC"
+        },
+        "324": {
+          "ID": "324",
+          "VALUE": "SMART 200 SAMED - CC"
+        },
+        "326": {
+          "ID": "326",
+          "VALUE": "SMART 200 SP OESTE - CC"
+        },
+        "328": {
+          "ID": "328",
+          "VALUE": "SMART 200 GUARULHOS - CC"
+        },
+        "330": {
+          "ID": "330",
+          "VALUE": "SMART 200 ABC + BAIXADA - CC"
+        },
+        "332": {
+          "ID": "332",
+          "VALUE": "SMART 200 CAMPINAS - CC"
+        },
+        "334": {
+          "ID": "334",
+          "VALUE": "SMART 200 JUNDIAÍ - CC"
+        },
+        "336": {
+          "ID": "336",
+          "VALUE": "SMART 200 SOROCABA - CC"
+        },
+        "338": {
+          "ID": "338",
+          "VALUE": "SMART 200 UP - CC"
+        },
+        "340": {
+          "ID": "340",
+          "VALUE": "PLANO REFERÊNCIA NOTREDAME"
+        },
+        "354": {
+          "ID": "354",
+          "VALUE": "SMART 200 RJ - SC"
+        },
+        "356": {
+          "ID": "356",
+          "VALUE": "SMART 300 - SC"
+        },
+        "358": {
+          "ID": "358",
+          "VALUE": "SMART 400 - SC"
+        },
+        "360": {
+          "ID": "360",
+          "VALUE": "SMART 500 - SC"
+        },
+        "362": {
+          "ID": "362",
+          "VALUE": "ADVANCE 600 - SC"
+        },
+        "364": {
+          "ID": "364",
+          "VALUE": "ADVANCE 700 - SC"
+        },
+        "366": {
+          "ID": "366",
+          "VALUE": "SMART 150 ABC - SC"
+        },
+        "368": {
+          "ID": "368",
+          "VALUE": "SMART 200 SP CAPITAL - SC"
+        },
+        "370": {
+          "ID": "370",
+          "VALUE": "SMART 200 SAMED - SC"
+        },
+        "372": {
+          "ID": "372",
+          "VALUE": "SMART 200 SP OESTE - SC"
+        },
+        "374": {
+          "ID": "374",
+          "VALUE": "SMART 200 GUARULHOS - SC"
+        },
+        "376": {
+          "ID": "376",
+          "VALUE": "SMART 200 ABC + BAIXADA - SC"
+        },
+        "378": {
+          "ID": "378",
+          "VALUE": "SMART 200 CAMPINAS - SC"
+        },
+        "380": {
+          "ID": "380",
+          "VALUE": "SMART 200 JUNDIAÍ - SC"
+        },
+        "382": {
+          "ID": "382",
+          "VALUE": "SMART 200 SOROCABA - SC"
+        },
+        "384": {
+          "ID": "384",
+          "VALUE": "SMART 200 UP - SC"
+        },
+        "385": {
+          "ID": "385",
+          "VALUE": "SMART 400 - CC - individual"
+        },
+        "387": {
+          "ID": "387",
+          "VALUE": "SMART 500 - CC - individual"
+        },
+        "389": {
+          "ID": "389",
+          "VALUE": "ADVANCE 600 - CC - individual"
+        },
+        "391": {
+          "ID": "391",
+          "VALUE": "ADVANCE 700 - CC - individual"
+        },
+        "393": {
+          "ID": "393",
+          "VALUE": "SMART 400 - SC - individual"
+        },
+        "395": {
+          "ID": "395",
+          "VALUE": "SMART 500 - SC - individual"
+        },
+        "397": {
+          "ID": "397",
+          "VALUE": "ADVANCE 600 - SC - individual"
+        },
+        "399": {
+          "ID": "399",
+          "VALUE": "ADVANCE 700 - SC - individual"
+        },
+        "401": {
+          "ID": "401",
+          "VALUE": "Amil 350 QC Nac R Copart PJA"
+        },
+        "403": {
+          "ID": "403",
+          "VALUE": "Amil 350 QP Nac R Copart PJA"
+        },
+        "405": {
+          "ID": "405",
+          "VALUE": "Amil 400 QC Nac R Copart PJCA"
+        },
+        "407": {
+          "ID": "407",
+          "VALUE": "Amil 400 QP Nac R Copart PJCA"
+        },
+        "409": {
+          "ID": "409",
+          "VALUE": "Amil 350 QC Nac R PJA"
+        },
+        "411": {
+          "ID": "411",
+          "VALUE": "Amil 350 QP Nac R PJA"
+        },
+        "413": {
+          "ID": "413",
+          "VALUE": "Amil 400 QC Nac R PJCA"
+        },
+        "415": {
+          "ID": "415",
+          "VALUE": "Amil 400 QP Nac R PJCA"
+        },
+        "417": {
+          "ID": "417",
+          "VALUE": "PLANO REFERÊNCIA AMIL"
+        },
+        "427": {
+          "ID": "427",
+          "VALUE": "NEXT MUNICIPAL SP"
+        },
+        "429": {
+          "ID": "429",
+          "VALUE": "NEXT ABC"
+        },
+        "431": {
+          "ID": "431",
+          "VALUE": "NEXT - 10"
+        },
+        "433": {
+          "ID": "433",
+          "VALUE": "NEXT - 100 REFERÊNCIA"
+        },
+        "435": {
+          "ID": "435",
+          "VALUE": "NEXT PLUS RM RJ"
+        },
+        "453": {
+          "ID": "453",
+          "VALUE": "CNU - EA-CC-ABSOLUTO NACIONAL ADS I - A"
+        },
+        "455": {
+          "ID": "455",
+          "VALUE": "CNU - EA-CC-CLÁSSICO BAIXO SUL ADS - E"
+        },
+        "457": {
+          "ID": "457",
+          "VALUE": "CNU - EA-CC-CLÁSSICO RECÔNCAVO BA ADS I - E"
+        },
+        "459": {
+          "ID": "459",
+          "VALUE": "CNU - EA-CC-CLÁSSICO REGIONAL BRASÍLIA ADS I - E"
+        },
+        "461": {
+          "ID": "461",
+          "VALUE": "CNU - EA-CC-CLÁSSICO REGIONAL SALVADOR V.2 ADS I - E"
+        },
+        "463": {
+          "ID": "463",
+          "VALUE": "CNU - EA-CC-CLÁSSICO REGIONAL SÃO PAULO ADS I - E"
+        },
+        "465": {
+          "ID": "465",
+          "VALUE": "CNU - EA-CC-ESTILO NACIONAL ADS I - A"
+        },
+        "467": {
+          "ID": "467",
+          "VALUE": "CNU - EA-CC-ESTILO NACIONAL ADS I - E"
+        },
+        "469": {
+          "ID": "469",
+          "VALUE": "CNU - EA-CC-SUPERIOR NACIONAL ADS I - A"
+        },
+        "471": {
+          "ID": "471",
+          "VALUE": "CNU - EA-SC-ABSOLUTO NACIONAL ADS - A"
+        },
+        "473": {
+          "ID": "473",
+          "VALUE": "CNU - EA-SC-CLÁSSICO BAIXO SUL ADS - E"
+        },
+        "475": {
+          "ID": "475",
+          "VALUE": "CNU - EA-SC-CLÁSSICO RECÔNCAVO BA ADS - E"
+        },
+        "477": {
+          "ID": "477",
+          "VALUE": "CNU - EA-SC-CLÁSSICO REGIONAL BRASÍLIA ADS - E"
+        },
+        "479": {
+          "ID": "479",
+          "VALUE": "CNU - EA-SC-CLÁSSICO REGIONAL SALVADOR ADS - E"
+        },
+        "481": {
+          "ID": "481",
+          "VALUE": "CNU - EA-SC-CLÁSSICO REGIONAL SÃO PAULO ADS - E"
+        },
+        "483": {
+          "ID": "483",
+          "VALUE": "CNU - EA-SC-ESTILO NACIONAL ADS - A"
+        },
+        "485": {
+          "ID": "485",
+          "VALUE": "CNU - EA-SC-ESTILO NACIONAL ADS - E"
+        },
+        "487": {
+          "ID": "487",
+          "VALUE": "CNU - EA-SC-REFERÊNCIA - UNIPLAN MÚLTIPLO ADESÃO - E"
+        },
+        "489": {
+          "ID": "489",
+          "VALUE": "CNU - EA-SC-SUPERIOR NACIONAL ADS - A"
+        },
+        "491": {
+          "ID": "491",
+          "VALUE": "CNU - EF-CC-ABSOLUTO NACIONAL ADS III - A"
+        },
+        "493": {
+          "ID": "493",
+          "VALUE": "CNU - EF-CC-CLÁSSICO BAIXO SUL ADS I - E"
+        },
+        "495": {
+          "ID": "495",
+          "VALUE": "CNU - EF-CC-CLÁSSICO RECÔNCAVO BA ADS I - E"
+        },
+        "497": {
+          "ID": "497",
+          "VALUE": "CNU - EF-CC-CLÁSSICO REGIONAL BRASÍLIA ADS I - E"
+        },
+        "499": {
+          "ID": "499",
+          "VALUE": "CNU - EF-CC-CLÁSSICO REGIONAL SALVADOR V.2 ADS I - E"
+        },
+        "501": {
+          "ID": "501",
+          "VALUE": "CNU - EF-CC-CLÁSSICO REGIONAL SÃO PAULO ADS I - E"
+        },
+        "503": {
+          "ID": "503",
+          "VALUE": "CNU - EF-CC-ESTILO NACIONAL ADS III - A"
+        },
+        "505": {
+          "ID": "505",
+          "VALUE": "CNU - EF-CC-ESTILO NACIONAL ADS III - E"
+        },
+        "507": {
+          "ID": "507",
+          "VALUE": "CNU - EF-CC-SUPERIOR NACIONAL ADS III - A"
+        },
+        "509": {
+          "ID": "509",
+          "VALUE": "CNU - EF-SC-ABSOLUTO NACIONAL ADS II - A"
+        },
+        "511": {
+          "ID": "511",
+          "VALUE": "CNU - EF-SC-CLÁSSICO BAIXO SUL ADS - E"
+        },
+        "513": {
+          "ID": "513",
+          "VALUE": "CNU - EF-SC-CLÁSSICO RECÔNCAVO BA ADS - E"
+        },
+        "515": {
+          "ID": "515",
+          "VALUE": "CNU - EF-SC-CLÁSSICO REGIONAL BRASÍLIA ADS - E"
+        },
+        "517": {
+          "ID": "517",
+          "VALUE": "CNU - EF-SC-CLÁSSICO REGIONAL SALVADOR ADS - E"
+        },
+        "519": {
+          "ID": "519",
+          "VALUE": "CNU - EF-SC-CLÁSSICO REGIONAL SÃO PAULO ADS - E"
+        },
+        "521": {
+          "ID": "521",
+          "VALUE": "CNU - EF-SC-ESTILO NACIONAL ADS - A"
+        },
+        "523": {
+          "ID": "523",
+          "VALUE": "CNU - EF-SC-ESTILO NACIONAL ADS - E"
+        },
+        "525": {
+          "ID": "525",
+          "VALUE": "CNU - EF-SC-SUPERIOR NACIONAL ADS II - A"
+        }
+      }
+    },
+    "PROPERTY_322": {
+      "type": "product_property",
+      "isRequired": false,
+      "isReadOnly": false,
+      "isImmutable": false,
+      "isMultiple": false,
+      "isDynamic": true,
+      "propertyType": "L",
+      "userType": "",
+      "title": "Operadora",
+      "values": {
+        "294": {
+          "ID": "294",
+          "VALUE": "UNIMED NATAL"
+        },
+        "296": {
+          "ID": "296",
+          "VALUE": "UNIMED RECIFE"
+        },
+        "306": {
+          "ID": "306",
+          "VALUE": "NOTREDAME"
+        },
+        "419": {
+          "ID": "419",
+          "VALUE": "AMIL"
+        },
+        "439": {
+          "ID": "439",
+          "VALUE": "CENTRAL NACIONAL UNIMED"
+        },
+        "441": {
+          "ID": "441",
+          "VALUE": "VITALLIS"
+        },
+        "443": {
+          "ID": "443",
+          "VALUE": "UNIMED BH"
+        }
+      }
+    },
+    "PROPERTY_324": {
+      "type": "product_property",
+      "isRequired": false,
+      "isReadOnly": false,
+      "isImmutable": false,
+      "isMultiple": false,
+      "isDynamic": true,
+      "propertyType": "S",
+      "userType": "",
+      "title": "cod_Entidade_01"
+    },
+    "PROPERTY_326": {
+      "type": "product_property",
+      "isRequired": false,
+      "isReadOnly": false,
+      "isImmutable": false,
+      "isMultiple": false,
+      "isDynamic": true,
+      "propertyType": "S",
+      "userType": "",
+      "title": "COD_DOC_Entidade_01"
+    },
+    "PROPERTY_366": {
+      "type": "product_property",
+      "isRequired": false,
+      "isReadOnly": false,
+      "isImmutable": false,
+      "isMultiple": false,
+      "isDynamic": true,
+      "propertyType": "L",
+      "userType": "",
+      "title": "Coparticipação",
+      "values": {
+        "298": {
+          "ID": "298",
+          "VALUE": "Com coparticipação"
+        },
+        "300": {
+          "ID": "300",
+          "VALUE": "Sem coparticipação"
+        }
+      }
+    },
+    "PROPERTY_368": {
+      "type": "product_property",
+      "isRequired": false,
+      "isReadOnly": false,
+      "isImmutable": false,
+      "isMultiple": false,
+      "isDynamic": true,
+      "propertyType": "S",
+      "userType": "",
+      "title": "NOME_entidade_01"
+    },
+    "PROPERTY_370": {
+      "type": "product_property",
+      "isRequired": false,
+      "isReadOnly": false,
+      "isImmutable": false,
+      "isMultiple": false,
+      "isDynamic": true,
+      "propertyType": "S",
+      "userType": "",
+      "title": "UF"
+    },
+    "PROPERTY_372": {
+      "type": "product_property",
+      "isRequired": false,
+      "isReadOnly": false,
+      "isImmutable": false,
+      "isMultiple": false,
+      "isDynamic": true,
+      "propertyType": "S",
+      "userType": "",
+      "title": "cod_Entidade_Fechada"
+    },
+    "PROPERTY_374": {
+      "type": "product_property",
+      "isRequired": false,
+      "isReadOnly": false,
+      "isImmutable": false,
+      "isMultiple": false,
+      "isDynamic": true,
+      "propertyType": "S",
+      "userType": "",
+      "title": "COD_DOC_Entidade_Fechada"
+    },
+    "PROPERTY_376": {
+      "type": "product_property",
+      "isRequired": false,
+      "isReadOnly": false,
+      "isImmutable": false,
+      "isMultiple": false,
+      "isDynamic": true,
+      "propertyType": "S",
+      "userType": "",
+      "title": "NOME_entidade_fechada"
+    },
+    "PROPERTY_378": {
+      "type": "product_property",
+      "isRequired": false,
+      "isReadOnly": false,
+      "isImmutable": false,
+      "isMultiple": false,
+      "isDynamic": true,
+      "propertyType": "S",
+      "userType": "",
+      "title": "linkImg"
+    },
+    "PROPERTY_380": {
+      "type": "product_property",
+      "isRequired": false,
+      "isReadOnly": false,
+      "isImmutable": false,
+      "isMultiple": false,
+      "isDynamic": true,
+      "propertyType": "F",
+      "userType": "",
+      "title": "fileDetail"
+    },
+    "PROPERTY_382": {
+      "type": "product_property",
+      "isRequired": false,
+      "isReadOnly": false,
+      "isImmutable": false,
+      "isMultiple": false,
+      "isDynamic": true,
+      "propertyType": "S",
+      "userType": "",
+      "title": "urlFileDetail"
+    },
+    "PROPERTY_384": {
+      "type": "product_property",
+      "isRequired": false,
+      "isReadOnly": false,
+      "isImmutable": false,
+      "isMultiple": false,
+      "isDynamic": true,
+      "propertyType": "S",
+      "userType": "",
+      "title": "urlMPS"
+    },
+    "PROPERTY_386": {
+      "type": "product_property",
+      "isRequired": false,
+      "isReadOnly": false,
+      "isImmutable": false,
+      "isMultiple": false,
+      "isDynamic": true,
+      "propertyType": "S",
+      "userType": "",
+      "title": "urlGLC"
+    },
+    "PROPERTY_408": {
+      "type": "product_property",
+      "isRequired": false,
+      "isReadOnly": false,
+      "isImmutable": false,
+      "isMultiple": true,
+      "isDynamic": true,
+      "propertyType": "S",
+      "userType": "",
+      "title": "Cidades Cobertura"
+    },
+    "PROPERTY_410": {
+      "type": "product_property",
+      "isRequired": false,
+      "isReadOnly": false,
+      "isImmutable": false,
+      "isMultiple": false,
+      "isDynamic": true,
+      "propertyType": "L",
+      "userType": "",
+      "title": "Obstetrícia",
+      "values": {
+        "350": {
+          "ID": "350",
+          "VALUE": "Com obstetrícia"
+        },
+        "352": {
+          "ID": "352",
+          "VALUE": "Sem obstetrícia"
+        }
+      }
+    },
+    "PROPERTY_411": {
+      "type": "product_property",
+      "isRequired": false,
+      "isReadOnly": false,
+      "isImmutable": false,
+      "isMultiple": false,
+      "isDynamic": true,
+      "propertyType": "L",
+      "userType": "",
+      "title": "Tabela Vigente",
+      "values": {
+        "421": {
+          "ID": "421",
+          "VALUE": "AMIL - Tabela A"
+        },
+        "423": {
+          "ID": "423",
+          "VALUE": "AMIL - Tabela F"
+        },
+        "425": {
+          "ID": "425",
+          "VALUE": "AMIL - Tabela A1"
+        },
+        "437": {
+          "ID": "437",
+          "VALUE": "AMIL FÁCIL - Tabela A"
+        },
+        "445": {
+          "ID": "445",
+          "VALUE": "CNU - Tabela Fechada"
+        },
+        "447": {
+          "ID": "447",
+          "VALUE": "CNU - Tabela Aberta"
+        }
+      }
+    },
+    "PROPERTY_413": {
+      "type": "product_property",
+      "isRequired": false,
+      "isReadOnly": false,
+      "isImmutable": false,
+      "isMultiple": false,
+      "isDynamic": true,
+      "propertyType": "L",
+      "userType": "",
+      "title": "Tipo Tabela",
+      "values": {
+        "449": {
+          "ID": "449",
+          "VALUE": "Aberta"
+        },
+        "451": {
+          "ID": "451",
+          "VALUE": "Fechada"
+        }
+      }
+    },
+    "PROPERTY_161": {
+      "type": "product_property",
+      "isRequired": true,
+      "isReadOnly": false,
+      "isImmutable": false,
+      "isMultiple": false,
+      "isDynamic": true,
+      "propertyType": "L",
+      "userType": "",
+      "title": "Acomodacao",
+      "values": {
+        "197": {
+          "ID": "197",
+          "VALUE": "Enfermaria"
+        },
+        "199": {
+          "ID": "199",
+          "VALUE": "Apartamento"
+        }
+      }
+    },
+    "PROPERTY_163": {
+      "type": "product_property",
+      "isRequired": true,
+      "isReadOnly": false,
+      "isImmutable": false,
+      "isMultiple": false,
+      "isDynamic": true,
+      "propertyType": "S",
+      "userType": "",
+      "title": "Registro ANS"
+    },
+    "ESTADOS": {
+      "AC": "5156",
+      "AL": "5158",
+      "AP": "5160",
+      "AM": "5162",
+      "BA": "5164",
+      "CE": "5166",
+      "DF": "5168",
+      "ES": "5170",
+      "GO": "5172",
+      "MA": "5174",
+      "MT": "5176",
+      "MS": "5178",
+      "MG": "5180",
+      "PA": "5182",
+      "PB": "5184",
+      "PE": "5186",
+      "PI": "5188",
+      "PR": "5190",
+      "RJ": "5192",
+      "RN": "5194",
+      "RS": "5196",
+      "RO": "5198",
+      "RR": "5200",
+      "SC": "5202",
+      "SE": "5204",
+      "SP": "5206",
+      "TO": "5208"
+    },
+    "ESTADOS_ENT": {
+      "AC": "5757",
+      "AL": "5759",
+      "AP": "5761",
+      "AM": "5763",
+      "BA": "5765",
+      "CE": "5767",
+      "DF": "5769",
+      "ES": "5771",
+      "GO": "5773",
+      "MA": "5775",
+      "MT": "5777",
+      "MS": "5779",
+      "MG": "5781",
+      "PA": "5783",
+      "PB": "5785",
+      "PE": "5787",
+      "PI": "5789",
+      "PR": "5791",
+      "RJ": "5793",
+      "RN": "6876",
+      "RS": "6878",
+      "RO": "6880",
+      "RR": "6882",
+      "SC": "6884",
+      "SE": "6886",
+      "SP": "6888",
+      "TO": "6890"
+    }
+  }
+}
