@@ -320,8 +320,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
   </div>
 
-  
-<?php include("..rodape_mob.php"); ?>
+
+<?php include("../rodape_mob.php"); ?>
 
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 

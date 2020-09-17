@@ -698,3 +698,7 @@ p {
         max-height: 402px !important;
     }
 }
+
+.fixed-bottom {
+    position: unset!important;
+}

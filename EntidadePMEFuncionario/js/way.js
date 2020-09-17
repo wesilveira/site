@@ -2432,7 +2432,7 @@ $(document).ready(function() {
             var profissao = infoCustomer.PROFISSAO;
 
             var entidades_abertas = "";
-            if (profissao === false) {
+            if (profissao === false || profissao === null || profissao === undefined) {
                 $(".entidadeFechada").addClass("hide");
                 $(".entidadeAberta").removeClass("hide");
                 $.each(infoCustomer.ENTIDADES, function() {

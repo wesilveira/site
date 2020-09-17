@@ -692,3 +692,6 @@ p {
     background: #004a81;
     background-size: 200%;
 }
+.fixed-bottom {
+    position: unset;
+}
