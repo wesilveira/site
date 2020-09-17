@@ -1,8 +1,8 @@
 <?PHP
  
 # PHP 7
-$conexao = mysqli_connect('localhost','gpsoftco_user','Odlareg2930');
-$banco = mysqli_select_db($conexao,'gpsoftco_way');
+$conexao = mysqli_connect('mysql.way.digital','way02','Waydigit4l');
+$banco = mysqli_select_db($conexao,'way02');
 mysqli_set_charset($conexao,'utf8');
  
 // $sql = mysqli_query($conexao,"select * from tb_pessoa") or die("Erro");

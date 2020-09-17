@@ -906,13 +906,14 @@ $(document).ready(function () {
 
           $("#planosToShow").html(result.data);
 
+          var infoCustomer = JSON.parse(localStorage.getItem("infoCustomer")); 
           if (result.entidades !== "false") {
-            var infoCustomer = JSON.parse(localStorage.getItem("infoCustomer"));
+           
             infoCustomer.ENTIDADES = result.entidades;
             localStorage.setItem("infoCustomer", JSON.stringify(infoCustomer));
           }
 
-          if(operadoras_venda.length <=0) {
+          if(operadoras_venda.length <=0 && infoCustomer.PROFISSAO === "false") {
             let plan = document.querySelector('#planosToShow');
             let aElement = document.createElement('a');
             let pElement = document.createElement('p');
@@ -3382,7 +3383,7 @@ $(document).ready(function () {
             $(".carrega-doc").hide();
             $("#btnGerarRascunho").hide();
             $(".btnAbrePdf").html(
-              '<a target="_blank" href="http://waydigital.kinghost.net/waystore_valida/proposta_rascunho_' +
+              '<a target="_blank" href="https://way.digital/site/EntidadeAberta/proposta_rascunho_' +
                 localStorage.getItem("rascunho_id") +
                 '.pdf"><button type="button" class="btn btn-success">Visualizar</button></a>'
             );
@@ -3413,7 +3414,7 @@ $(document).ready(function () {
       setTimeout(() => {
         if (localStorage.getItem("rascunho_download") !== "true") {
           $(".btnAbrePdfErro").html(
-            '<center>Clique no botão se seu rascunho não carregou... <a target="_blank" href="http://waydigital.kinghost.net/waystore_valida/proposta_rascunho_' +
+            '<center>Clique no botão se seu rascunho não carregou... <a target="_blank" href="https://way.digital/site/EntidadeAberta/proposta_rascunho_' +
               rascunho_id +
               '.pdf"><button type="button" class="btn btn-sm btn-success">Visualizar</button></a></center>'
           );
@@ -3443,7 +3444,7 @@ $(document).ready(function () {
               $("#btnGerarRascunho").hide();
               $(".carrega-doc").hide();
               $(".btnAbrePdf").html(
-                '<a target="_blank" href="http://waydigital.kinghost.net/waystore_valida/proposta_rascunho_' +
+                '<a target="_blank" href="https://way.digital/site/EntidadeAberta/proposta_rascunho_' +
                   result.rascunho_id +
                   '.pdf"><button type="button" class="btn btn-lg btn-success">Visualizar</button></a>'
               );
@@ -3597,7 +3598,7 @@ $(document).ready(function () {
       setTimeout(() => {
         if (localStorage.getItem("rascunho_download") !== "true") {
           $(".btnAbrePdfErro").html(
-            '<center>Clique no botão se sua proposta não carregou... <a target="_blank" href="http://waydigital.kinghost.net/waystore_valida/proposta_final_' +
+            '<center>Clique no botão se sua proposta não carregou... <a target="_blank" href="https://way.digital/site/EntidadeAberta/proposta_final_' +
               proposta_id +
               '.pdf"><button type="button" class="btn btn-sm btn-success">Visualizar</button></a></center>'
           );

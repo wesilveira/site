@@ -583,8 +583,10 @@
               },
               "PROPERTY_317": {
                 "value": "'.getCodIdade($infoCustomer["IDADE"]).'"
+              },
+              "PROPERTY_413": {
+                  "value": "449"
               }
-              '.$filtro_entidade_aberta.'
             },
             "select": [
               "NAME",
@@ -632,8 +634,10 @@
                   },
                   "PROPERTY_317": {
                     "value": "'.getCodIdade($infoCustomer["IDADE"]).'"
+                  },
+                  "PROPERTY_413": {
+                      "value": "449"
                   }
-                  '.$filtro_entidade_aberta.'
                 },
                 "select": [
                   "NAME",
