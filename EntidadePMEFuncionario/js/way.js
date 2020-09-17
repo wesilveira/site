@@ -882,11 +882,34 @@ $(document).ready(function() {
 
                     $("#planosToShow").html(result.data);
 
+                    var infoCustomer = JSON.parse(localStorage.getItem("infoCustomer"));
                     if (result.entidades !== "false") {
-                        var infoCustomer = JSON.parse(localStorage.getItem("infoCustomer"));
                         infoCustomer.ENTIDADES = result.entidades;
                         localStorage.setItem("infoCustomer", JSON.stringify(infoCustomer));
                     }
+                    if(infoCustomer.IDADE < 18) {
+                        $("#planosToShow").html("");
+                        let plan = document.querySelector('#planosToShow');
+                        let aElement = document.createElement('a');
+                        let pElement = document.createElement('p');
+                        let ptextElement = document.createTextNode("No momento, para a sua idade, não localizamos planos disponíveis na modalidade PME.  Se desejar você pode falar com um de nossos consultores para verificar uma segunda opção.");
+                        let iElement = '<i class="bx bxl-whatsapp"></i> whatsapp';
+                        let atextNode = document.createTextNode('Whatsapp');
+                        
+                        plan.setAttribute('style','display:flex;justify-content:center;color:white;padding-top:40px;')
+                        aElement.classList.add('action-button');
+                        aElement.setAttribute('style','text-decoration:none;color:white;background-color:#ff5a29; font-size:1.4rem;padding:10px 12px;border-radius:5px;display:flex;justify-content:center;width:80%;align-items:center;');
+                        aElement.setAttribute('href','https://api.whatsapp.com/send?phone=5585989330959');
+                        pElement.setAttribute('style','color:white;margin-left:1.2rem;text-align:center;font-size:1.4rem;');
+                        pElement.appendChild(ptextElement);
+                        aElement.appendChild(atextNode);
+                        aElement.innerHTML = iElement;
+                        plan.appendChild(pElement);
+                        plan.appendChild(aElement);            
+                      }else{
+
+                        
+                      }
                     //mostrar();
                 } else {
                     retorno = false;
@@ -3638,7 +3661,7 @@ $(document).ready(function() {
                         $(".carrega-doc").hide();
                         $("#btnGerarRascunho").hide();
                         $(".btnAbrePdf").html(
-                            '<a target="_blank" href="http://gpsoft.com.br/way_new_version/EntidadePMEFuncionario/proposta_rascunho_' +
+                            '<a target="_blank" href="https://way.digital/site/EntidadePMEFuncionario/proposta_rascunho_' +
                             //'<a target="_blank" href="https://way.digital/waystore_dev_valida/proposta_rascunho_' +
                             localStorage.getItem("rascunho_id") +
                             '.pdf"><button type="button" class="btn btn-success">Visualizar</button></a>'
@@ -3669,7 +3692,7 @@ $(document).ready(function() {
             setTimeout(() => {
                 if (localStorage.getItem("rascunho_download") !== "true") {
                     $(".btnAbrePdfErro").html(
-                        '<center>Clique no botão se seu rascunho não carregou... <a target="_blank" href="http://gpsoft.com.br/way_new_version/EntidadePMEFuncionario/proposta_rascunho_' +
+                        '<center>Clique no botão se seu rascunho não carregou... <a target="_blank" href="https://way.digital/site/EntidadePMEFuncionario/proposta_rascunho_' +
                         rascunho_id +
                         '.pdf"><button type="button" class="btn btn-sm btn-success">Visualizar</button></a></center>'
                     );
@@ -3699,7 +3722,7 @@ $(document).ready(function() {
                             $("#btnGerarRascunho").hide();
                             $(".carrega-doc").hide();
                             $(".btnAbrePdf").html(
-                                '<a target="_blank" href="http://gpsoft.com.br/way_new_version/EntidadePMEFuncionario/proposta_rascunho_' +
+                                '<a target="_blank" href="https://way.digital/site/EntidadePMEFuncionario/proposta_rascunho_' +
 
                                 //'<a target="_blank" href="https://way.digital/waystore_dev_valida/proposta_rascunho_' +
                                 result.rascunho_id +
@@ -3870,7 +3893,7 @@ $(document).ready(function() {
             setTimeout(() => {
                 if (localStorage.getItem("rascunho_download") !== "true") {
                     $(".btnAbrePdfErro").html(
-                        '<center>Clique no botão se sua proposta não carregou... <a target="_blank" href="https://way.digital/waystore_dev_valida/proposta_final_' +
+                        '<center>Clique no botão se sua proposta não carregou... <a target="_blank" href="https://way.digital/site/EntidadePMEFuncionario/proposta_final_' +
                         proposta_id +
                         '.pdf"><button type="button" class="btn btn-sm btn-success">Visualizar</button></a></center>'
                     );

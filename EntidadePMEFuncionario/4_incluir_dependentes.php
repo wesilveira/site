@@ -296,7 +296,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                   </p>
                                   </div> 
                                       <input type="button" name="next" id="btnSemDependente" class="next action-button" value="Prosseguir sem dependentes.">
-                                      <input style="display:none; !IMPORTANT" type="button" name="next" id="btnEncerraAddDep"  class="next action-button" value="Pronto.">
+                                      <input style="display:none; !IMPORTANT" type="button" name="next" id="btnEncerraAddDep"  class="next action-button" value="Avançar">
                                       <input style="display:none" type="button" name="next" id="btnE4" class="next action-button" value="Continuar" disabled>
                                   <!--<input type="button" name="previous" class="previous action-button-previous" value="Anterior" onClick="parent.location='3_mps.php'">-->
                                       

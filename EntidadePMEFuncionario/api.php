@@ -345,7 +345,10 @@
                 },
                 "PROPERTY_319": {
                   "value": "265"
-                }
+                },
+                "PROPERTY_370": {
+                  "value": "'.$plano["PROPERTY_370"]["value"].'"
+              }
             },
             "select": [
                 "ID",
