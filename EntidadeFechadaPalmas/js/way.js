@@ -3175,7 +3175,7 @@ $(document).ready(function() {
                         $(".carrega-doc").hide();
                         $("#btnGerarRascunho").hide();
                         $(".btnAbrePdf").html(
-                            '<a target="_blank" href="https://way.digital/waystore_dev_valida/proposta_rascunho_' +
+                            '<a target="_blank" href="https://way.digital/site/EntidadeFechadaPalmas/proposta_rascunho_' +
                             localStorage.getItem("rascunho_id") +
                             '.pdf"><button type="button" class="btn btn-success">Visualizar</button></a>'
                         );
